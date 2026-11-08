@@ -3,6 +3,7 @@ name: "Leonid A. Shumilov"
 avatar: "face-pic.jpg"
 shortBio: "Theoretical physicist working on quantum field theory"
 institution: "Max Planck Institute for Physics"
+email: "shum@mpp.mpg.de"
 ---
 
 I am a postdoc at the quantum field theory group.
