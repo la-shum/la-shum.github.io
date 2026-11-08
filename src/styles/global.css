@@ -432,10 +432,9 @@ a:hover,
     width: 220px;
     height: 220px;
     margin-bottom: 1.25rem;
-    border-radius: 50%;
+    border-radius: 8px;
     object-fit: cover;
     border: 2px solid var(--border);
-    transition: border-color 0.3s ease;
 }
 
 .sidebar-avatar:hover {
