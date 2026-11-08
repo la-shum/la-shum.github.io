@@ -437,10 +437,6 @@ a:hover,
     border: 2px solid var(--border);
 }
 
-.sidebar-avatar:hover {
-    border-color: var(--accent);
-}
-
 .sidebar-name {
     font-size: 1.5rem;
     font-weight: 800;
