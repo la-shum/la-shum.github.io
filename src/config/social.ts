@@ -8,7 +8,7 @@ export const SOCIALS: SocialLink[] = [
         isActive: false,
     },
     {
-        name: "INSPIRE",
+        name: "iNSPIRE",
         href: "https://inspirehep.net/authors/2878659?ui-citation-summary=true",
         linkTitle: "Leonid Shumilov on INSPIRE-HEP",
         isActive: true,
@@ -20,7 +20,7 @@ export const SOCIALS: SocialLink[] = [
         isActive: true,
     },
     {
-        name: "ORCID",
+        name: "ORCiD",
         href: "https://orcid.org/0000-0003-2484-7161",
         linkTitle: "Leonid Shumilov on ORCID",
         isActive: true,
