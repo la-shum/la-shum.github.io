@@ -31,6 +31,12 @@ const bio = bioCollection[0]?.data;
                     {bio.institution}
                 </p>
             )}
+            {bio?.email && (
+                <p class="sidebar-info">
+                    <Icon name="Mail" size={24} />
+                    <a href={`mailto:${bio.email}`}>{bio.email}</a>
+                </p>
+            )}
             {bio?.shortBio && (
                 <p class="sidebar-bio mt-2 max-md:hidden">{bio.shortBio}</p>
             )}
