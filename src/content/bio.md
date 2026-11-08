@@ -1,6 +1,6 @@
 ---
 name: "Leonid A. Shumilov"
-avatar: "shannon.jpg"
+avatar: "face-pic.jpg"
 shortBio: "Theoretical physicist working on quantum field theory"
 institution: "Max Planck Institute for Physics"
 ---
