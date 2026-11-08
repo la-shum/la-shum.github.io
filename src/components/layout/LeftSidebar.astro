@@ -40,18 +40,20 @@ const bio = bioCollection[0]?.data;
             {bio?.shortBio && (
                 <p class="sidebar-bio mt-2 max-md:hidden">{bio.shortBio}</p>
             )}
-            <div class="flex gap-1 flex-wrap items-center justify-center max-lg:justify-start mt-3">
-                {activeSocials.map((social) => (
-                    <a
-                        href={social.href}
-                        aria-label={social.linkTitle}
-                        title={social.linkTitle}
-                        target="_blank"
-                        rel="noreferrer"
-                        class="social-link"
-                    >
-                        <Icon name={SOCIAL_ICONS[social.name] || social.name} size={24} />
-                    </a>
+             <div class="social-text-links mt-3">
+                {activeSocials.map((social, i) => (
+                    <>
+                        {i > 0 && <span class="social-separator" aria-hidden="true">|</span>}
+                        <a
+                            href={social.href}
+                            title={social.linkTitle}
+                            target="_blank"
+                            rel="noreferrer"
+                            class="social-text-link"
+                        >
+                            {social.name}
+                        </a>
+                    </>
                 ))}
             </div>
         </div>
