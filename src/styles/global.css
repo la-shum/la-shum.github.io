@@ -414,7 +414,8 @@ a:hover,
 
 /* Sidebar */
 .sidebar {
-    width: 280px;
+    width: 30%;
+    min-width: 280px;
     height: 100vh;
     position: sticky;
     top: 0;
