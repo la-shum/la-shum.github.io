@@ -952,3 +952,36 @@ a:hover,
         font-size: 0.85rem;
     }
 }
+
+/* Text links to INSPIRE, arXiv, ORCID */
+.social-text-links {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    font-size: 0.95rem;
+}
+
+.social-text-link {
+    color: var(--foreground);
+    opacity: 0.8;
+    text-decoration: none;
+    transition: color 0.2s ease, opacity 0.2s ease;
+}
+
+.social-text-link:hover {
+    opacity: 1;
+    color: var(--accent);
+}
+
+.social-separator {
+    color: var(--foreground);
+    opacity: 0.4;
+}
+
+@media (max-width: 1024px) {
+    .social-text-links {
+        justify-content: flex-start;
+    }
+}
