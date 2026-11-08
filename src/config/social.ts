@@ -10,7 +10,13 @@ export const SOCIALS: SocialLink[] = [
     {
         name: "INSPIRE",
         href: "https://inspirehep.net/authors/2878659?ui-citation-summary=true",
-        linkTitle: "Leonid A. Shumilov on INSPIRE-HEP",
+        linkTitle: "Leonid Shumilov on INSPIRE-HEP",
+        isActive: true,
+    },
+    {
+        name: "arXiv",
+        href: "https://arxiv.org/search/?query=Leonid+Shumilov&searchtype=author",
+        linkTitle: "Leonid Shumilov on arXiv",
         isActive: true,
     },
     {
@@ -28,5 +34,6 @@ export const SOCIAL_ICONS: Record<string, string> = {
     "Google Scholar": "GoogleScholar",
     ORCID: "ORCID",
     INSPIRE: "INSPIRE",
+    arXiv: "arXiv",
     RSS: "RSS",
 };
