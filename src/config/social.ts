@@ -5,7 +5,7 @@ export const SOCIALS: SocialLink[] = [
         name: "Mail",
         href: "mailto:leonid.shumilov@mpp.mpg.de",
         linkTitle: "Send an email to Leonid Shumilov",
-        isActive: true,
+        isActive: false,
     },
     {
         name: "INSPIRE",
